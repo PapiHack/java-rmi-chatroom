@@ -6,10 +6,10 @@ Un simple ChatRoom ou salon de discussion en français, avec `Java` et l'interfa
 
 Pour une meilleur organisation, le projet est découpé suivant les `packages` suivants :
 
-- `server` contient les classes metiers de l'app (ici `User.java` et `Message.java`).
+- `server` contient tout ce qui concerne le serveur.
 
-- `client` contient tout ce qui concerne la partie client comme l'interface graphique (`Gui.java`)
-ainsi que la logique d'interaction avec le serveur soap (`Client.java`).
+- `client` contient tout ce qui concerne la partie client comme l'interface graphique (`InterfaceGraphique.java`)
+ainsi que la logique d'interaction avec le serveur soap (`ChatUser.java`).
 
 ## Notes
 
